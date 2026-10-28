@@ -1,0 +1,44 @@
+# .gitignore
+# ─────────────────────────────────────────────────────────────────────────────
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large data and model files  (tracked via Git LFS or external storage)
+backend/tourism_recommendation_dataset_en.csv
+backend/final_linear_svm_pipeline.joblib
+china_tourism_location_enrichment_bundle/
+
+# Linter cache
+.ruff_cache/
+
+# Streamlit cache
+.streamlit/cache/
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Env / secrets
+.env
+*.env
+

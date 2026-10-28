@@ -1,0 +1,15 @@
+project-includes = [
+    "app.py",
+    "api_client.py",
+    "test_api_client.py",
+]
+project-excludes = [
+    "backend/.venv",
+    "**/__pycache__",
+]
+python-platform = "windows"
+python-version = "3.13.0"
+site-packages-path = [
+    "backend/.venv/Lib/site-packages",
+]
+
